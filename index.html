@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <title>Personal Portfolio #04 | AsmrProg</title>
+    <title>Personal Portfolio #01</title>
 </head>
 
 <body>
@@ -19,6 +19,7 @@
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">About</a></li>
+            <li><a id="instagramLink" href="#">Instagram</a></li> <!-- Додано ідентифікатор instagramLink -->
         </ul>
         <button class="hire-btn">Hire Me</button>
     </div>
@@ -75,9 +76,7 @@
                 If the customer is very smart, he or she will be able to achieve the desired result. Nor shall it come to pass that life flees;
                 for with the desire of labor, which are the duties, he is to be chosen;
                 indeed an option!
-                If the customer is very smart, he or she will be able to achieve the desired result. Nor shall it come to pass that life flees;
-                for with the desire of labor, which are the duties, he is to be chosen;
-                indeed an option!
+                
             </p>
             <button class="hire-btn">Hire Me</button>
         </div>
@@ -183,6 +182,15 @@
         </div>
 
     </footer>
+
+    <script>
+        var instagramLink = document.getElementById('instagramLink');
+        
+        instagramLink.onclick = function() {
+            window.location.href = 'https://www.instagram.com/sarccasm__'; 
+            return false; 
+        };
+    </script>
 
 </body>
 

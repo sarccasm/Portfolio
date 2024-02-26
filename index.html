@@ -187,7 +187,8 @@
         var instagramLink = document.getElementById('instagramLink');
         
         instagramLink.onclick = function(event) { 
-            window.location.href = 'https://www.instagram.com/sarccasm__';
+            event.prentDefault();
+            window.open('https://www.instagram.com/sarccasm__', 'blank');
         };
     </script>
 

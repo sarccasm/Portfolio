@@ -19,7 +19,7 @@
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">About</a></li>
-            <li><a id="instagramLink" href="#">Instagram</a></li> <!-- Додано ідентифікатор instagramLink -->
+            <li><a id="instagramLink" href="#">Instagram</a></li> 
         </ul>
         <button class="hire-btn">Hire Me</button>
     </div>
@@ -186,7 +186,7 @@
     <script>
         var instagramLink = document.getElementById('instagramLink');
         
-        instagramLink.onclick = function() {
+        instagramLink.onclick = function(event) { 
             event.preventDefault();
             window.open('https://www.instagram.com/sarccasm__', '_blank');
         };
